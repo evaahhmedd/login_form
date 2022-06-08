@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#admin-form {
+  background-color: #850b16;
+  color: aliceblue;
+  text-align: center;
+ width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+}
+h1 {
+       font-size: 50px;
+       text-transform: uppercase;
+}
+#admin-form h1::first-letter{
+  font-size: 80px;
+}
+input {
+            width: 100%;
+            padding: 10px;
+}
+input[type="submit"] {background-color: rgb(20, 220, 160);
+transition-duration: 0.2s;
+width: 20%;}
+input[type="submit"]:hover{background-color: blue;
+color: aliceblue;font-size: 15px;}
+input::placeholder{color: red;}
+::selection{background-color: navy;
+color: aquamarine;}
